@@ -1,0 +1,72 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+.body-content {
+    height: calc(100vh - 4.25rem);
+}
+.nav ul {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    display:inline;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+.topleft,
+.topright,
+.bottomleft,
+.bottomright {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.topright {
+    float: right;
+}
+.topleft {
+    float: left;
+}
+.bottomright {
+    float: right;
+}
+.bottomleft {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen, (min width: 300px) {
+    .topleft li {
+        color: blue;
+    }
+} */
